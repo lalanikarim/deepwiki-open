@@ -47,6 +47,8 @@ Create a `.env` file in the project root:
 ```
 # No need for API keys when using Ollama locally
 PORT=8001
+# Provide hostname for Ollama. Required, if not local.
+OLLAMA_HOST=localhost
 ```
 
 Start the backend:
